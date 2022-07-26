@@ -94,3 +94,12 @@ function lastCatalogo() {
         acessarCatalogo.href = linkCatalogo[nCatalogo-1];
     }
 }
+
+function fecharMenu() {
+    
+    let toggle = document.getElementById("toggle");
+    toggle.checked = false;
+
+    let menuItens = document.getElementById("menu-itens");
+    menuItens.visibility = hidden;
+}

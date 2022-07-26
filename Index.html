@@ -8,8 +8,13 @@
     <title>Jonathan Kiraly</title>
 </head>
 <body>
-    <div class="header-wrapper">
-        <!-- <div class="header">
+    <section id="header-wrapper">
+        <h1>Jonathan Kiraly</h1>
+        <h2>Front-End Developer</h2>
+    </section>
+
+    <div id="menu-container">
+        <div class="header">
             <div class="checkbox-container">
                 <div class="checkbox-wrapper">
                     <input type="checkbox" id="toggle">
@@ -18,30 +23,46 @@
                         <div class="trace"></div>
                         <div class="trace"></div>
                     </label>
-                    <div class="menu"></div>
+                    
                     <nav class="menu-itens">
+                        <h1>Jonathan Kiraly</h1>
+                        <h2>Front-End Developer</h2>
                         <ul>
-                            <li class="menu-list"> <a href="../Intro.html">Início</a> </li>
-                            <li class="menu-list"> <a href="https://github.com/dev-kiraly" target="_blank">GitHub</a> </li>
-                            <li class="menu-list"> <a href="https://www.linkedin.com/in/jonathan-kiraly-garrido-ab9120241/" target="_blank">Linkedin</a> </li>
+                            <li class="menu-list">
+                                <a href="#header-wrapper" onclick="fecharMenu()">
+                                    Início
+                                </a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="#card-sobre" onclick="fecharMenu()">
+                                    Sobre
+                                </a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="#card-design" onclick="fecharMenu()">
+                                    Design
+                                </a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="#card-projetos" onclick="fecharMenu()">
+                                    Projetos
+                                </a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="#card-cv" onclick="fecharMenu()">
+                                    CV e Contatos
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
             </div>
-        </div> -->
-
-
-        <h1>Jonathan Kiraly</h1>
-        <h2>Front-End Developer</h2>
-    </div>
+        </div>
 
 
 
 
 
-
-
-    <div id="menu-container">
         <div id="menu">
             <div id="menu-icon">
                 <img src="./Assets/Img/Icon.png" id="icon"/>
@@ -50,33 +71,38 @@
             
             <div id="menu-list-div">
                 <div id="menu-list">
-                    <a>
+                    <a href="#header-wrapper">
                         <button class="menu-list-a">
                             Início
                         </button>
                     </a>
-                    <a>
+                    <a href="#card-sobre">
                         <button class="menu-list-a">
                             Sobre
                         </button>
                     </a>
-                    <a>
+                    <a href="#card-design">
                         <button class="menu-list-a">
                             Design
                         </button>
                     </a>
-                    <a>
+                    <a href="#card-projetos">
                         <button class="menu-list-a">
                             Projetos
                         </button>
                     </a>
-                    <a>
+                    <a href="#card-cv">
                         <button class="menu-list-a">
-                            Contatos
+                            CV Contatos
                         </button>
                     </a>
                 </div>
             </div>
+
+
+
+
+            
         </div>
     </div>
 
@@ -85,7 +111,7 @@
         <div id="container">
 
 
-            <div id="card-sobre" class="card-container">
+            <section id="card-sobre" class="card-container">
                 <div id="div-img-profile">
                     <img src="./Assets/Img/img-profile.jpeg" id="img-profile">
                 </div>
@@ -93,77 +119,78 @@
                 <div class="card-text">
                     <h2>Sobre</h2>
                     <p>
-                        Casado e Pai de um bebê de 1 ano chamado Abel. Estou procurando trocar de carreira para realizar meu sonho de estar próximo da minha família enquanto trago soluções para grandes problemas da empresa que me acolher como membro de sua família. 
+                        Me chamo Jonathan, sou casado e pai. Estou focado em trocar de carreira para realizar meu sonho de estar próximo da minha família enquanto trago soluções para grandes problemas da empresa que me acolher como membro de sua equipe.
                         <br/><br/>
-                        Estou estudando de forma consistente para obter conhecimento profundo das coisas que estou aprendendo (saber por cima não é comigo).
-                        Tenho facilidade para aprender, pensar logicamente e amo resolver problemas (até por diversão). É um prazer compartilhar conhecimento e ajudar aos que estão a volta no que puder. 
+                        Tenho estudando de forma consistente para obter conhecimento profundo das coisas que estou aprendendo, (saber apenas por cima não é comigo). 
+                        Tenho facilidade para aprender, pensar logicamente e fascinado em resolver problemas (até por diversão). Além disso, é um prazer compartilhar meu conhecimento, ajudar os que estão a minha volta
                         <br/><br/>
-                        Faço alguns Freelas como Designer Gráfico nos ultimos 4 anos, e acredito que isso possa ser um diferencial, pois já tenho prática em desenvolver o que é agradável aos olhos e útil ao usuário. Coloquei uma Sessão abaixo para mostrar um pouco desse trabalho também.
+                        Faço alguns Freelas como designer gráfico nos últimos quatro anos. Acredito que isso possa ser um diferencial, já que tenho prática em desenvolver o que é agradável aos olhos e útil ao usuário. Coloquei uma sessão abaixo para mostrar um pouco desse trabalho também.
                         <br/><br/>
-                        Não sou do tipo de pessoa que se acomoda. Eu busco novos desafios, problemas maiores para resolver, e conhecimentos novos para agregar na minha caixa de ferramentas. Darei preferência para as empresas que oferecerem um bom plano de carreira e benefícios que possam me ajudar a cuidar bem da minha família.
+                        Não sou do tipo de pessoa que se acomoda! Busco novos desafios, problemas maiores para resolver e conhecimentos novos para agregar na minha caixa de ferramentas. Darei preferência para as empresas que oferecerem um bom plano de carreira, que me mantenham motivado em crescer e evoluir sempre que possível. 
                         <br/><br/>
                         Espero poder ser uma boa ferramenta na mão de quem tenha muitos desafios!
                     </p>
                 </div>
-            </div>
+            </section>
 
 
-            <div id="card-design" class="card-container">
+            <section id="card-design" class="card-container">
                 
                 
                 <div id="design-text" class="card-text">
                     <h2>Um pouco de Design</h2>
                     <p>
-                        Precisei de uma logo uma vez para um negócio próprio, e acabei criando por conta no celular. Gostei do resultado e fui atrás para aprender mais. Logo ja estava fazendo logos para amigos e comecei a cobrar conforme os resultados melhoravam. Aprendi a usar o Illustrator da Adobe, e logo depois o Photoshop também e por fim, recentemente o Canva. Não tornei isso minha fonte de trabalho principal em momento algum. Realmente fiz por que gostava e aproveitva para tirar um proveito já que eu estava bastante os clientes, e muitas vezes cobrando valores muito abaixo do mercado.
+                        Precisei de uma logo certa vez para meu negócio e acabei criando por conta, no celular mesmo. Gostei do resultado mas fui atrás para aprender mais. Depois de um tempo, já estava fazendo logos para amigos e comecei a cobrar conforme os resultados melhoravam. Aprendi a usar o Illustrator da Adobe, depois o Photoshop e por fim, recentemente o Canva. Mas não tornei isso minha fonte de trabalho principal em momento algum. Realmente fiz porque gostava e tirava proveito já que eu estava com bastante clientes e diversas vezes cobrando valores muito abaixo do mercado.
                         <br/><br/>
-                        Você pode conferir algumas logos que fiz e o link para catálogos e cardápios. 
+                        Aqui você pode conferir algumas logos que fiz e o link para catálogos e cardápios:
                 </div>
-                <div class="designs">
-                    
-                    <div id="slider">    
-                        <img id="slide" src="./Assets/Img/Slide/1.png" alt="" />
-                    </div>
-                    <h5 id="cliente-logo" class="h5-cliente">Boa Vista</h5>
-                    <div class="button-wrapper">
-                        <button class="button-slider" onclick="lastLogo()"> < </button>
-                        <button class="button-slider" onclick="nextLogo()"> > </button>
-                    </div>
-                </div>
-
-                <div class="designs">
-
-                    <img id="img-catalogo" src="./Assets/Img/Catalogos/1.png"/>
-
-                    <h5 id="cliente-catalogo" class="h5-cliente">Amar</h5>
-
-                    <a href="https://bit.ly/Catalogo_Completo_PetShow_ShowGroom_AMAR_Distribuidora" id="acessar-catalogo" target="_blank" download>
-                        <button id="button-acessar-catalogo" class="button-catalogo">
-                            Acessar
-                        </button>
-                    </a>
-                    
-                    <div class="button-wrapper">
-                        <button class="button-catalogo" onclick="lastCatalogo()"> < </button>
-                        <button class="button-catalogo" onclick="nextCatalogo()"> > </button>
-                    </div>
+                <div id="designs-wrapper">
+                    <div class="designs">
                         
+                        <div id="slider">    
+                            <img id="slide" src="./Assets/Img/Slide/1.png"/>
+                        </div>
+                        <h5 id="cliente-logo" class="h5-cliente">Boa Vista</h5>
+                        <div class="button-wrapper">
+                            <button class="button-slider" onclick="lastLogo()"> < </button>
+                            <button class="button-slider" onclick="nextLogo()"> > </button>
+                        </div>
+                    </div>
                     
+                    <div class="designs">
+                    
+                        <img id="img-catalogo" src="./Assets/Img/Catalogos/1.png"/>
+                    
+                        <h5 id="cliente-catalogo" class="h5-cliente">Amar</h5>
+                    
+                        <a href="https://bit.ly/Catalogo_Completo_PetShow_ShowGroom_AMAR_Distribuidora" id="acessar-catalogo" target="_blank" download>
+                            <button id="button-acessar-catalogo" class="button-catalogo">
+                                Acessar
+                            </button>
+                        </a>
+                        
+                        <div class="button-wrapper">
+                            <button class="button-catalogo" onclick="lastCatalogo()"> < </button>
+                            <button class="button-catalogo" onclick="nextCatalogo()"> > </button>
+                        </div>
+                            
+                        
+                    </div>
                 </div>
 
 
 
-            </div>
+            </section>
 
 
-
-
-            <div id="card-projetos" class="card-container">
+            <section id="card-projetos" class="card-container">
                 <div id="titulo-card-projetos">
                     <h2>Projetos Dev.</h2>
                     <p id="p-projetos">
                         Confira abaixo alguns dos meus ultimos projetos de estudo
                     </p>
                 </div>
+
                 <div id="projetos-container">
                     <div class="projeto">
                         <div class="projetos-img-card-wrapper">
@@ -173,7 +200,7 @@
                                 <p class="descricao-projeto">
                                     Refiz a interface de login do Instagram, tentando ser o mais fiel possível. Links funcionais para as páginas originais.
                                 </p>
-                        </div>
+                            </div>
                         </div>
                         
                         <div class="bt-techs-projeto-wrapper">
@@ -181,7 +208,11 @@
                                 <div class="tech"> HTML </div>
                                 <div class="tech"> CSS </div>
                             </div>
-                            <button id="projeto-instagram" class="button-projeto" >Acessar Projeto</button>
+                            <a href="https://github.com/dev-kiraly/Estudos/tree/master/Estudos/Projetos%20e%20Desafios%20Pessoais/Instagram%20Login%20Remake%20-%20HTML%20e%20CSS" target="_blank">
+                                <button class="button-projeto" >
+                                    Acessar Projeto
+                                </button>
+                            </a>
                         </div>
                     </div> 
                         
@@ -194,7 +225,7 @@
                                 <p class="descricao-projeto">
                                     Clássico exercício de programação descoberto durante caça a exercícios de programação. Fiz também um laço For para preencher o array que alimentou a função para o exercício.
                                 </p>
-                        </div>
+                            </div>
                         </div>
                         
                         
@@ -202,7 +233,11 @@
                             <div class="techs-wrapper">
                                 <div class="tech"> JavaScript </div>
                             </div>
-                            <button id="projeto-fizzbuzz" class="button-projeto" >Acessar Projeto</button>
+                            <a href="https://github.com/dev-kiraly/Estudos/tree/master/Estudos/Projetos%20e%20Desafios%20Pessoais/FizzBuzz%20-%20JavaScript" target="_blank">
+                                <button class="button-projeto">
+                                    Acessar Projeto
+                                </button>
+                            </a>
                         </div>
                     </div>
 
@@ -224,12 +259,15 @@
                                 <div class="tech"> CSS </div>
                                 <div class="tech"> JavaScript </div>
                             </div>
-                            <button id="projeto-cores" class="button-projeto" >Acessar Projeto</button>
+
+                            <a href="https://github.com/dev-kiraly/Estudos/tree/master/Estudos/Projetos%20e%20Desafios%20Pessoais/Jogo%20das%20Cores%20-%20JavaScript" target="_blank">
+                                <button class="button-projeto">
+                                    Acessar Projeto
+                                </button>
+                            </a>
                         </div>
                     </div>
-                </div>
-
-                <div id="projetos-container">
+               
                     <div class="projeto">
                         <div class="projetos-img-card-wrapper">
                             <img src="./Assets/Img/Calculadora.png" class="img-projetos"></img>
@@ -238,7 +276,7 @@
                                 <p class="descricao-projeto">
                                     Calculadora minimalista que armazena as contas em strings e uma função executa e retorna o resultado. Reaproveita ou não o resultado para contas futuras dependendo da tecla precionada em seguida.
                                 </p>
-                        </div>
+                            </div>
                         </div>
                         
                         <div class="bt-techs-projeto-wrapper">
@@ -247,7 +285,11 @@
                                 <div class="tech"> CSS </div>
                                 <div class="tech"> JavaScript </div>
                             </div>
-                            <button id="projeto-calculadora" class="button-projeto" >Acessar Projeto</button>
+                            <a href="https://github.com/dev-kiraly/Estudos/tree/master/Estudos/Projetos%20e%20Desafios%20Pessoais/Calculadora%20-%20JavaScript" target="_blank">
+                                <button class="button-projeto">
+                                    Acessar Projeto
+                                </button>
+                            </a>
                         </div>
                     </div> 
                         
@@ -260,7 +302,7 @@
                                 <p class="descricao-projeto">
                                     Cronômetro feito para aprender a manipular o tempo através do JavaScript. Aprendi a usar setInterval() e a corrigir o erro de iniciar mais de uma vez o contador acelerando a contagem.
                                 </p>
-                        </div>
+                            </div>
                         </div>
                         
                         
@@ -270,7 +312,11 @@
                                 <div class="tech"> CSS </div>
                                 <div class="tech"> JavaScript </div>
                             </div>
-                            <button id="projeto-cronometro" class="button-projeto" >Acessar Projeto</button>
+                            <a href="https://github.com/dev-kiraly/Estudos/tree/master/Estudos/Projetos%20e%20Desafios%20Pessoais/Cron%C3%B4metro%20-%20JavaScript" target="_blank">
+                                <button class="button-projeto" >
+                                    Acessar Projeto
+                                </button>
+                            </a>
                         </div>
                     </div>
 
@@ -293,122 +339,97 @@
                                 <div class="tech"> JavaScript </div>
                                 <div class="tech"> React </div>
                             </div>
-                            <button id="projeto-FizzBuzz" class="button-projeto" >Acessar Projeto</button>
+                            <a href="https://github.com/dev-kiraly/Estudos/tree/master/Estudos/Projetos%20e%20Desafios%20Pessoais/Lista%20de%20Tarefas%20-%20React" target="_blank">
+                                <button class="button-projeto" >
+                                    Acessar Projeto
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-
-                <div id="card-cv" class="card-container">
-                    <div id="card-cv-margin">
-                        <div id="mini-card">
-                        
-                            <div id="mini-card-div">
-                                <div id="div-img-cv">
-                                    <img src="./Assets/Img/CV.png" id="img-cv">
-                                </div>
-                                
-                                <div id="titulo-card-cv">
-                                    <h2>Currículo</h2>
-                                    <p>
-                                        Faça o download do meu currículo abaixo
-                                    </p>
-                                    <div id="button-div">
-                                        <a href="./Assets/Pdf/cv-dev-kiraly.pdf" download target="_blank">
-                                            <button id="button-cv">Download</button>
-                                        </a>
-                                        
-                                    </div>
+            <section id="card-cv" class="card-container">
+                <div id="card-cv-margin">
+                    <div id="mini-card">
+                    
+                        <div id="mini-card-div">
+                            <div id="div-img-cv">
+                                <img src="./Assets/Img/CV.png" id="img-cv">
+                            </div>
+                            
+                            <div id="titulo-card-cv">
+                                <h2>Currículo</h2>
+                                <p>
+                                    Faça o download do meu currículo abaixo
+                                </p>
+                                <div id="button-div">
+                                    <a href="./Assets/Pdf/cv-dev-kiraly.pdf" download target="_blank">
+                                        <button id="button-cv">Download</button>
+                                    </a>
                                     
                                 </div>
+                                
                             </div>
-                            
+                        </div>
                         
+                    
+                    </div>
+                    <div id="mini-card-contatos">
+                        <div id="titulo-mini-card-contatos">
+                            <h2>Contatos</h2>
+                            <p>
+                                Entre em contato comigo nos links abaixo
+                            </p>
                         </div>
-                        <div id="mini-card-contatos">
-                            <div id="titulo-mini-card-contatos">
-                                <h2>Contatos</h2>
-                                <p>
-                                    Entre em contato comigo nos links abaixo
-                                </p>
+
+                        <div id="contatos-wrapper">
+
+                            <div id="contatos-profissionais">
+                                <h4>Profissionais</h4>          
+                                <div id="profissionais">
+                                    <button id="linkedin" class="button-contato">
+                                        <a href="https://www.linkedin.com/in/dev-kiraly/" target="_blank">Linkedin</a> 
+                                    </button>
+                                    <button id="github" class="button-contato">
+                                        <a href="https://github.com/dev-kiraly" target="_blank">Github</a> 
+                                    </button>
+                                    <button id="email" class="button-contato">
+                                        <a href="mailto:dev.kiraly@gmail.com" target="_blank">Email</a> 
+                                    </button>
+                                </div>
                             </div>
+                        
 
-                            <div id="contatos-wrapper">
+                            <div id="contatos-pessoais">
+                                <h4>Pessoais</h4>          
+                                <div id="pessoais">
+                                    <button id="whatsapp" class="button-contato">
+                                        <a href="https://wa.me/5512981017400" target="_blank">WhatsApp</a>
+                                    </button>
+                                    <button id="me-ligue" class="button-contato">
+                                        <a href="tel:5512981937276" target="_blank">Me Ligue</a> 
+                                    </button>
+                                    <button id="instagram" class="button-contato">
+                                        <a href="https://www.instagram.com/jk.garrido/" target="_blank">Instagram</a> 
 
-                                <div id="contatos-profissionais">
-                                    <h4>Profissionais</h4>          
-                                    <div id="profissionais">
-                                        <button id="linkedin" class="button-contato">
-                                            <a href="https://www.linkedin.com/in/dev-kiraly/" target="_blank">Linkedin</a> 
-                                        </button>
-                                        <button id="github" class="button-contato">
-                                            <a href="https://github.com/dev-kiraly" target="_blank">Github</a> 
-                                        </button>
-                                        <button id="email" class="button-contato">
-                                            <a href="mailto:dev.kiraly@gmail.com" target="_blank">Email</a> 
-                                        </button>
-                                    </div>
+                                    </button>  
                                 </div>
-                            
-
-                                <div id="contatos-pessoais">
-                                    <h4>Pessoais</h4>          
-                                    <div id="pessoais">
-                                        <button id="whatsapp" class="button-contato">
-                                            <a href="https://wa.me/5512981017400" target="_blank">WhatsApp</a>
-                                        </button>
-                                        <button id="me-ligue" class="button-contato">
-                                            <a href="tel:5512981937276" target="_blank">Me Ligue</a> 
-                                        </button>
-                                        <button id="instagram" class="button-contato">
-                                            <a href="https://www.instagram.com/jk.garrido/" target="_blank">Instagram</a> 
-
-                                        </button>  
-                                    </div>
-                                </div>
-                            </div>                        
-                        </div>
+                            </div>
+                        </div>                        
                     </div>
                 </div>
-            </div>
+            </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                
+        </div>
 
         <footer class="footer">
-            by Jonathan Kiraly
+            <p>Developed by</p>
+            <h2>Jonathan Kiraly</h2>
+            <h3>Front-End Developer</h3>
         </footer>
-
-
-
     </main>
-
-
-
- 
-
-
-
-
-
-
 
     <script src="./Assets/Js/Scripts.js"></script>
 </body>
