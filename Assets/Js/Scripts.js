@@ -103,3 +103,30 @@ function fecharMenu() {
     let menuItens = document.getElementById("menu-itens");
     menuItens.visibility = hidden;
 }
+
+
+
+
+// Animações que fazem os elementos surgir ao rolar a página
+
+// Recebe os elementos que serão animadas
+const divAnime = document.querySelectorAll("[anime]");
+
+// Função que adiciona ou não a classe que ativa a animação
+const animeScroll = () => {
+    const windowTop = window.pageYOffset + window.innerHeight * 0.8;
+    divAnime.forEach((element) => {
+        if (windowTop > element.offsetTop) {
+            element.classList.add("animationOn");
+        } else {
+            element.classList.remove("animationOn");
+        }
+    })
+}
+
+// Função que observa a rolagem da página e chama a função acima
+window.addEventListener("scroll", () => {
+    animeScroll();
+});
+
+animeScroll();

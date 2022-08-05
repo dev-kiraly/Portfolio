@@ -13,9 +13,32 @@ body{
     background-color: #dddddd;
 }
 
+[anime] {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+[anime="up"] {
+    transform: translate3d(0, 50px, 0);
+}
+
+[anime].animationOn {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
 #menu-container {
     position: fixed;
     top: 0;
+    z-index: 99; 
     left: 0;
     width: 100%;
     height: 60px;
